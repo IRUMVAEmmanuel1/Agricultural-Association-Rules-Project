@@ -337,37 +337,11 @@ git push heroku main
 ### AWS/GCP/Azure
 See detailed deployment guides in `docs/deployment.md`
 
-## 🔒 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - **Agricultural Research Community** for domain expertise
 - **Open Source Libraries** that made this project possible
 - **Farmers and Agricultural Professionals** for validation and feedback
-
-## 📞 Support & Contact
-
-- **Issues**: [GitHub Issues](https://github.com/yourusername/agricultural-association-rules/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/agricultural-association-rules/discussions)
-- **Email**: agricultural.analytics@example.com
-- **Documentation**: [Project Wiki](https://github.com/yourusername/agricultural-association-rules/wiki)
-
-## 🗺️ Roadmap
-
-### Version 2.0 (Planned)
-- [ ] Real-time data integration with IoT sensors
-- [ ] Machine learning model ensemble
-- [ ] Mobile application development
-- [ ] Multi-language support
-- [ ] Advanced geospatial analysis
-
-### Version 1.5 (In Progress)
-- [ ] Enhanced visualization capabilities
-- [ ] API endpoint development
-- [ ] Database integration
-- [ ] Performance optimizations
 
 ## 📊 Project Statistics
 
