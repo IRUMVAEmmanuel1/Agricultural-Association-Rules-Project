@@ -59,7 +59,7 @@ This project implements an end-to-end agricultural analytics pipeline that:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/agricultural-association-rules.git
+   git clone https://github.com/IRUMVAEmmanuel1/Agricultural-Association-Rules-Project.git
    cd agricultural-association-rules
    ```
 
