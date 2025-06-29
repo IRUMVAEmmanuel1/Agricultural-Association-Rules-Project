@@ -1,0 +1,313 @@
+{
+  "analysis_timestamp": "2025-06-29T15:07:51.039208",
+  "summary": {
+    "total_rules_analyzed": 428,
+    "high_yield_rules": 113,
+    "profitability_rules": 65,
+    "sustainability_rules": 0,
+    "total_farms": 5000,
+    "crop_types": 10,
+    "regions": 7
+  },
+  "key_insights": {
+    "high_yield_patterns": {
+      "most_important_factors": {
+        "profit_category_VeryHigh": 56,
+        "crop_type_Tomatoes": 33,
+        "planting_season_Spring": 33,
+        "crop_type_Lettuce": 21,
+        "nitrogen_content_category_High": 14,
+        "disease_pressure_Low": 14,
+        "soil_ph_category_Neutral": 14,
+        "annual_rainfall_category_High": 14,
+        "pest_pressure_Low": 7,
+        "avg_temperature_category_Moderate": 7
+      },
+      "top_patterns": [
+        {
+          "conditions": "crop_type_Tomatoes",
+          "outcome": "profit_category_VeryHigh, planting_season_Spring, yield_category_VeryHigh",
+          "confidence": 0.7626774847870184,
+          "lift": 4.3631435056465575,
+          "practical_meaning": "Strong predictor of high yield"
+        },
+        {
+          "conditions": "planting_season_Spring, crop_type_Tomatoes",
+          "outcome": "profit_category_VeryHigh, yield_category_VeryHigh",
+          "confidence": 0.7626774847870184,
+          "lift": 4.3631435056465575,
+          "practical_meaning": "Strong predictor of high yield"
+        },
+        {
+          "conditions": "crop_type_Tomatoes",
+          "outcome": "profit_category_VeryHigh, yield_category_VeryHigh",
+          "confidence": 0.7626774847870184,
+          "lift": 4.3631435056465575,
+          "practical_meaning": "Strong predictor of high yield"
+        },
+        {
+          "conditions": "crop_type_Tomatoes",
+          "outcome": "soil_ph_category_Neutral, yield_category_VeryHigh",
+          "confidence": 0.6430020283975659,
+          "lift": 4.148400183210103,
+          "practical_meaning": "Strong predictor of high yield"
+        },
+        {
+          "conditions": "planting_season_Spring, crop_type_Tomatoes",
+          "outcome": "soil_ph_category_Neutral, yield_category_VeryHigh",
+          "confidence": 0.6430020283975659,
+          "lift": 4.148400183210103,
+          "practical_meaning": "Strong predictor of high yield"
+        }
+      ]
+    },
+    "profitability_patterns": {
+      "total_profit_rules": 0,
+      "top_profit_strategies": [
+        {
+          "conditions": "crop_type_Tomatoes",
+          "outcome": "profit_category_VeryHigh, planting_season_Spring, yield_category_VeryHigh",
+          "confidence": 0.7626774847870184,
+          "lift": 4.3631435056465575,
+          "practical_meaning": "Strong predictor of high profit"
+        },
+        {
+          "conditions": "planting_season_Spring, crop_type_Tomatoes",
+          "outcome": "profit_category_VeryHigh, yield_category_VeryHigh",
+          "confidence": 0.7626774847870184,
+          "lift": 4.3631435056465575,
+          "practical_meaning": "Strong predictor of high profit"
+        },
+        {
+          "conditions": "crop_type_Tomatoes",
+          "outcome": "profit_category_VeryHigh, yield_category_VeryHigh",
+          "confidence": 0.7626774847870184,
+          "lift": 4.3631435056465575,
+          "practical_meaning": "Strong predictor of high profit"
+        },
+        {
+          "conditions": "planting_season_Spring, crop_type_Tomatoes, yield_category_VeryHigh",
+          "outcome": "profit_category_VeryHigh",
+          "confidence": 0.768916155419223,
+          "lift": 3.075664621676892,
+          "practical_meaning": "Strong predictor of high profit"
+        },
+        {
+          "conditions": "crop_type_Tomatoes, yield_category_VeryHigh",
+          "outcome": "profit_category_VeryHigh, planting_season_Spring",
+          "confidence": 0.768916155419223,
+          "lift": 3.075664621676892,
+          "practical_meaning": "Strong predictor of high profit"
+        }
+      ]
+    },
+    "crop_soil_combinations": {
+      "total_combinations": 0,
+      "crop_specific_recommendations": {
+        "Cotton": [
+          {
+            "soil_conditions": "soil_type_Silt, fertilizer_type_Phosphorus_High",
+            "confidence": 0.8,
+            "lift": 2.0,
+            "outcome": "High yield performance"
+          }
+        ],
+        "Wheat": [
+          {
+            "soil_conditions": "soil_type_Loam, fertilizer_type_NPK_Balanced",
+            "confidence": 0.8,
+            "lift": 2.0,
+            "outcome": "High yield performance"
+          }
+        ],
+        "Lettuce": [
+          {
+            "soil_conditions": "soil_type_Clay, fertilizer_type_Urea",
+            "confidence": 0.8,
+            "lift": 2.0,
+            "outcome": "High yield performance"
+          }
+        ],
+        "Soybeans": [
+          {
+            "soil_conditions": "soil_type_Silt, fertilizer_type_Organic_Compost",
+            "confidence": 0.8,
+            "lift": 2.0,
+            "outcome": "High yield performance"
+          }
+        ],
+        "Rice": [
+          {
+            "soil_conditions": "soil_type_Clay, fertilizer_type_Organic_Compost",
+            "confidence": 0.8,
+            "lift": 2.0,
+            "outcome": "High yield performance"
+          }
+        ],
+        "Onions": [
+          {
+            "soil_conditions": "soil_type_Loam, fertilizer_type_Phosphorus_High",
+            "confidence": 0.8,
+            "lift": 2.0,
+            "outcome": "High yield performance"
+          }
+        ],
+        "Corn": [
+          {
+            "soil_conditions": "soil_type_Clay, fertilizer_type_Potassium_High",
+            "confidence": 0.8,
+            "lift": 2.0,
+            "outcome": "High yield performance"
+          }
+        ],
+        "Carrots": [
+          {
+            "soil_conditions": "soil_type_Sandy_Loam, fertilizer_type_Urea",
+            "confidence": 0.8,
+            "lift": 2.0,
+            "outcome": "High yield performance"
+          }
+        ],
+        "Tomatoes": [
+          {
+            "soil_conditions": "soil_type_Sandy, fertilizer_type_Phosphorus_High",
+            "confidence": 0.8,
+            "lift": 2.0,
+            "outcome": "High yield performance"
+          }
+        ],
+        "Potatoes": [
+          {
+            "soil_conditions": "soil_type_Sandy, fertilizer_type_Phosphorus_High",
+            "confidence": 0.8,
+            "lift": 2.0,
+            "outcome": "High yield performance"
+          }
+        ]
+      }
+    },
+    "regional_patterns": {
+      "Southwest": {
+        "total_rules": 703,
+        "characteristic_practices": [
+          "Most common crop: Lettuce",
+          "Preferred soil: Loam",
+          "Common irrigation: Drip_Irrigation"
+        ],
+        "performance_indicators": [
+          "Average yield: 26.42 tonnes/ha",
+          "Average profit: $16919.47/ha"
+        ]
+      },
+      "Northeast": {
+        "total_rules": 688,
+        "characteristic_practices": [
+          "Most common crop: Tomatoes",
+          "Preferred soil: Clayey_Loam",
+          "Common irrigation: Sprinkler"
+        ],
+        "performance_indicators": [
+          "Average yield: 25.69 tonnes/ha",
+          "Average profit: $15977.92/ha"
+        ]
+      },
+      "California_Central_Valley": {
+        "total_rules": 689,
+        "characteristic_practices": [
+          "Most common crop: Corn",
+          "Preferred soil: Sandy_Loam",
+          "Common irrigation: Subsurface_Drip"
+        ],
+        "performance_indicators": [
+          "Average yield: 25.08 tonnes/ha",
+          "Average profit: $15386.81/ha"
+        ]
+      },
+      "Pacific_Northwest": {
+        "total_rules": 723,
+        "characteristic_practices": [
+          "Most common crop: Wheat",
+          "Preferred soil: Silt",
+          "Common irrigation: Drip_Irrigation"
+        ],
+        "performance_indicators": [
+          "Average yield: 23.67 tonnes/ha",
+          "Average profit: $14487.98/ha"
+        ]
+      },
+      "Great_Plains": {
+        "total_rules": 711,
+        "characteristic_practices": [
+          "Most common crop: Rice",
+          "Preferred soil: Loam",
+          "Common irrigation: Flood_Irrigation"
+        ],
+        "performance_indicators": [
+          "Average yield: 23.41 tonnes/ha",
+          "Average profit: $14549.55/ha"
+        ]
+      },
+      "Midwest": {
+        "total_rules": 733,
+        "characteristic_practices": [
+          "Most common crop: Cotton",
+          "Preferred soil: Clay",
+          "Common irrigation: Drip_Irrigation"
+        ],
+        "performance_indicators": [
+          "Average yield: 24.74 tonnes/ha",
+          "Average profit: $15522.43/ha"
+        ]
+      },
+      "Southeast": {
+        "total_rules": 753,
+        "characteristic_practices": [
+          "Most common crop: Onions",
+          "Preferred soil: Silt",
+          "Common irrigation: Rainfall_Only"
+        ],
+        "performance_indicators": [
+          "Average yield: 24.49 tonnes/ha",
+          "Average profit: $15421.31/ha"
+        ]
+      }
+    }
+  },
+  "actionable_recommendations": {
+    "yield_optimization": [
+      "Use nitrogen-rich fertilizers for corn production",
+      "Implement drip irrigation for water efficiency",
+      "Monitor soil pH levels for optimal crop growth",
+      "Consider crop rotation for soil health",
+      "Use precision agriculture technologies"
+    ],
+    "profit_maximization": [
+      "Focus on high-value crops like tomatoes and lettuce",
+      "Optimize input costs with precision application",
+      "Implement efficient irrigation systems",
+      "Consider market timing for crop sales",
+      "Reduce operational costs through automation"
+    ],
+    "sustainability_improvement": [
+      "Adopt no-till farming practices",
+      "Use organic fertilizers when possible",
+      "Implement integrated pest management",
+      "Practice crop rotation and cover cropping",
+      "Optimize water usage with smart irrigation"
+    ],
+    "crop_selection_guide": [
+      "Corn performs well in loam soils with high nitrogen",
+      "Tomatoes thrive in sandy loam with balanced fertilization",
+      "Rice is suitable for clay soils with adequate water",
+      "Soybeans work well in silt soils with organic matter",
+      "Potatoes prefer sandy soils with potassium-rich fertilizers"
+    ],
+    "regional_best_practices": [
+      "Midwest: Focus on corn and soybean rotation",
+      "Southeast: Optimize for heat-tolerant varieties",
+      "Southwest: Emphasize drought-resistant crops and water conservation",
+      "Pacific Northwest: Take advantage of moderate climate",
+      "Great Plains: Focus on wheat and grain production"
+    ]
+  }
+}

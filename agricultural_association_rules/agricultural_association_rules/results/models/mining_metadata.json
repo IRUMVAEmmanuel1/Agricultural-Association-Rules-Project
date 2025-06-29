@@ -1,0 +1,16 @@
+{
+  "mining_timestamp": "2025-06-29T13:54:46.515496",
+  "configuration": {
+    "min_support": 0.05,
+    "min_confidence": 0.6,
+    "min_lift": 1.2,
+    "max_len": 5,
+    "metric": "confidence",
+    "top_rules_count": 50
+  },
+  "results_summary": {
+    "frequent_itemsets_count": 63709,
+    "association_rules_count": 141027,
+    "transaction_count": 5000
+  }
+}

@@ -1,0 +1,864 @@
+[
+  {
+    "rule_id": 149501,
+    "antecedents": [
+      "crop_type_Peas"
+    ],
+    "consequents": [
+      "crop_variety_Peas_Standard",
+      "planting_season_Spring",
+      "Rainfall_annual_rainfall_High",
+      "Temperature_avg_temperature_Cool"
+    ],
+    "support": 0.0558,
+    "confidence": 1.0,
+    "lift": 17.921146953405017,
+    "conviction": Infinity,
+    "rule_category": "Climate-Crop",
+    "agricultural_interpretation": "Climate suitability for crops"
+  },
+  {
+    "rule_id": 64449,
+    "antecedents": [
+      "crop_type_Peas",
+      "planting_season_Spring"
+    ],
+    "consequents": [
+      "Yield_yield_per_hectare_Low",
+      "crop_variety_Peas_Standard"
+    ],
+    "support": 0.054,
+    "confidence": 0.967741935483871,
+    "lift": 17.921146953405017,
+    "conviction": 29.326000000000025,
+    "rule_category": "General Agriculture",
+    "agricultural_interpretation": "General agricultural associations"
+  },
+  {
+    "rule_id": 64447,
+    "antecedents": [
+      "Yield_yield_per_hectare_Low",
+      "crop_type_Peas"
+    ],
+    "consequents": [
+      "crop_variety_Peas_Standard",
+      "planting_season_Spring"
+    ],
+    "support": 0.054,
+    "confidence": 1.0,
+    "lift": 17.921146953405017,
+    "conviction": Infinity,
+    "rule_category": "General Agriculture",
+    "agricultural_interpretation": "General agricultural associations"
+  },
+  {
+    "rule_id": 64446,
+    "antecedents": [
+      "Yield_yield_per_hectare_Low",
+      "crop_variety_Peas_Standard",
+      "planting_season_Spring"
+    ],
+    "consequents": [
+      "crop_type_Peas"
+    ],
+    "support": 0.054,
+    "confidence": 1.0,
+    "lift": 17.921146953405017,
+    "conviction": Infinity,
+    "rule_category": "General Agriculture",
+    "agricultural_interpretation": "General agricultural associations"
+  },
+  {
+    "rule_id": 64444,
+    "antecedents": [
+      "Yield_yield_per_hectare_Low",
+      "crop_type_Peas",
+      "planting_season_Spring"
+    ],
+    "consequents": [
+      "crop_variety_Peas_Standard"
+    ],
+    "support": 0.054,
+    "confidence": 1.0,
+    "lift": 17.921146953405017,
+    "conviction": Infinity,
+    "rule_category": "General Agriculture",
+    "agricultural_interpretation": "General agricultural associations"
+  },
+  {
+    "rule_id": 64453,
+    "antecedents": [
+      "crop_variety_Peas_Standard"
+    ],
+    "consequents": [
+      "Yield_yield_per_hectare_Low",
+      "crop_type_Peas",
+      "planting_season_Spring"
+    ],
+    "support": 0.054,
+    "confidence": 0.967741935483871,
+    "lift": 17.921146953405017,
+    "conviction": 29.326000000000025,
+    "rule_category": "General Agriculture",
+    "agricultural_interpretation": "General agricultural associations"
+  },
+  {
+    "rule_id": 64452,
+    "antecedents": [
+      "crop_type_Peas"
+    ],
+    "consequents": [
+      "Yield_yield_per_hectare_Low",
+      "crop_variety_Peas_Standard",
+      "planting_season_Spring"
+    ],
+    "support": 0.054,
+    "confidence": 0.967741935483871,
+    "lift": 17.921146953405017,
+    "conviction": 29.326000000000025,
+    "rule_category": "General Agriculture",
+    "agricultural_interpretation": "General agricultural associations"
+  },
+  {
+    "rule_id": 64451,
+    "antecedents": [
+      "crop_variety_Peas_Standard",
+      "planting_season_Spring"
+    ],
+    "consequents": [
+      "Yield_yield_per_hectare_Low",
+      "crop_type_Peas"
+    ],
+    "support": 0.054,
+    "confidence": 0.967741935483871,
+    "lift": 17.921146953405017,
+    "conviction": 29.326000000000025,
+    "rule_category": "General Agriculture",
+    "agricultural_interpretation": "General agricultural associations"
+  },
+  {
+    "rule_id": 64450,
+    "antecedents": [
+      "Yield_yield_per_hectare_Low",
+      "crop_variety_Peas_Standard"
+    ],
+    "consequents": [
+      "crop_type_Peas",
+      "planting_season_Spring"
+    ],
+    "support": 0.054,
+    "confidence": 1.0,
+    "lift": 17.921146953405017,
+    "conviction": Infinity,
+    "rule_category": "General Agriculture",
+    "agricultural_interpretation": "General agricultural associations"
+  },
+  {
+    "rule_id": 56287,
+    "antecedents": [
+      "crop_type_Peas"
+    ],
+    "consequents": [
+      "Yield_yield_per_hectare_Low",
+      "crop_variety_Peas_Standard",
+      "Temperature_avg_temperature_Cool"
+    ],
+    "support": 0.054,
+    "confidence": 0.967741935483871,
+    "lift": 17.921146953405017,
+    "conviction": 29.326000000000025,
+    "rule_category": "Climate-Yield",
+    "agricultural_interpretation": "Weather conditions affecting productivity"
+  },
+  {
+    "rule_id": 56286,
+    "antecedents": [
+      "crop_variety_Peas_Standard"
+    ],
+    "consequents": [
+      "Yield_yield_per_hectare_Low",
+      "crop_type_Peas",
+      "Temperature_avg_temperature_Cool"
+    ],
+    "support": 0.054,
+    "confidence": 0.967741935483871,
+    "lift": 17.921146953405017,
+    "conviction": 29.326000000000025,
+    "rule_category": "Climate-Yield",
+    "agricultural_interpretation": "Weather conditions affecting productivity"
+  },
+  {
+    "rule_id": 56285,
+    "antecedents": [
+      "crop_type_Peas",
+      "Temperature_avg_temperature_Cool"
+    ],
+    "consequents": [
+      "Yield_yield_per_hectare_Low",
+      "crop_variety_Peas_Standard"
+    ],
+    "support": 0.054,
+    "confidence": 0.967741935483871,
+    "lift": 17.921146953405017,
+    "conviction": 29.326000000000025,
+    "rule_category": "Climate-Yield",
+    "agricultural_interpretation": "Weather conditions affecting productivity"
+  },
+  {
+    "rule_id": 56284,
+    "antecedents": [
+      "crop_variety_Peas_Standard",
+      "Temperature_avg_temperature_Cool"
+    ],
+    "consequents": [
+      "Yield_yield_per_hectare_Low",
+      "crop_type_Peas"
+    ],
+    "support": 0.054,
+    "confidence": 0.967741935483871,
+    "lift": 17.921146953405017,
+    "conviction": 29.326000000000025,
+    "rule_category": "Climate-Yield",
+    "agricultural_interpretation": "Weather conditions affecting productivity"
+  },
+  {
+    "rule_id": 12434,
+    "antecedents": [
+      "crop_type_Peas"
+    ],
+    "consequents": [
+      "crop_variety_Peas_Standard",
+      "planting_season_Spring"
+    ],
+    "support": 0.0558,
+    "confidence": 1.0,
+    "lift": 17.921146953405017,
+    "conviction": Infinity,
+    "rule_category": "General Agriculture",
+    "agricultural_interpretation": "General agricultural associations"
+  },
+  {
+    "rule_id": 12433,
+    "antecedents": [
+      "crop_variety_Peas_Standard",
+      "planting_season_Spring"
+    ],
+    "consequents": [
+      "crop_type_Peas"
+    ],
+    "support": 0.0558,
+    "confidence": 1.0,
+    "lift": 17.921146953405017,
+    "conviction": Infinity,
+    "rule_category": "General Agriculture",
+    "agricultural_interpretation": "General agricultural associations"
+  },
+  {
+    "rule_id": 12432,
+    "antecedents": [
+      "crop_type_Peas",
+      "planting_season_Spring"
+    ],
+    "consequents": [
+      "crop_variety_Peas_Standard"
+    ],
+    "support": 0.0558,
+    "confidence": 1.0,
+    "lift": 17.921146953405017,
+    "conviction": Infinity,
+    "rule_category": "General Agriculture",
+    "agricultural_interpretation": "General agricultural associations"
+  },
+  {
+    "rule_id": 149488,
+    "antecedents": [
+      "crop_type_Peas",
+      "Rainfall_annual_rainfall_High",
+      "Temperature_avg_temperature_Cool"
+    ],
+    "consequents": [
+      "crop_variety_Peas_Standard",
+      "planting_season_Spring"
+    ],
+    "support": 0.0558,
+    "confidence": 1.0,
+    "lift": 17.921146953405017,
+    "conviction": Infinity,
+    "rule_category": "Climate-Crop",
+    "agricultural_interpretation": "Climate suitability for crops"
+  },
+  {
+    "rule_id": 149487,
+    "antecedents": [
+      "crop_type_Peas",
+      "planting_season_Spring",
+      "Rainfall_annual_rainfall_High"
+    ],
+    "consequents": [
+      "crop_variety_Peas_Standard",
+      "Temperature_avg_temperature_Cool"
+    ],
+    "support": 0.0558,
+    "confidence": 1.0,
+    "lift": 17.921146953405017,
+    "conviction": Infinity,
+    "rule_category": "Climate-Crop",
+    "agricultural_interpretation": "Climate suitability for crops"
+  },
+  {
+    "rule_id": 149486,
+    "antecedents": [
+      "crop_variety_Peas_Standard",
+      "Rainfall_annual_rainfall_High",
+      "Temperature_avg_temperature_Cool"
+    ],
+    "consequents": [
+      "crop_type_Peas",
+      "planting_season_Spring"
+    ],
+    "support": 0.0558,
+    "confidence": 1.0,
+    "lift": 17.921146953405017,
+    "conviction": Infinity,
+    "rule_category": "Climate-Crop",
+    "agricultural_interpretation": "Climate suitability for crops"
+  },
+  {
+    "rule_id": 149484,
+    "antecedents": [
+      "crop_variety_Peas_Standard",
+      "planting_season_Spring",
+      "Rainfall_annual_rainfall_High"
+    ],
+    "consequents": [
+      "crop_type_Peas",
+      "Temperature_avg_temperature_Cool"
+    ],
+    "support": 0.0558,
+    "confidence": 1.0,
+    "lift": 17.921146953405017,
+    "conviction": Infinity,
+    "rule_category": "Climate-Crop",
+    "agricultural_interpretation": "Climate suitability for crops"
+  },
+  {
+    "rule_id": 149482,
+    "antecedents": [
+      "crop_type_Peas",
+      "planting_season_Spring",
+      "Rainfall_annual_rainfall_High",
+      "Temperature_avg_temperature_Cool"
+    ],
+    "consequents": [
+      "crop_variety_Peas_Standard"
+    ],
+    "support": 0.0558,
+    "confidence": 1.0,
+    "lift": 17.921146953405017,
+    "conviction": Infinity,
+    "rule_category": "Climate-Crop",
+    "agricultural_interpretation": "Climate suitability for crops"
+  },
+  {
+    "rule_id": 149480,
+    "antecedents": [
+      "crop_variety_Peas_Standard",
+      "planting_season_Spring",
+      "Rainfall_annual_rainfall_High",
+      "Temperature_avg_temperature_Cool"
+    ],
+    "consequents": [
+      "crop_type_Peas"
+    ],
+    "support": 0.0558,
+    "confidence": 1.0,
+    "lift": 17.921146953405017,
+    "conviction": Infinity,
+    "rule_category": "Climate-Crop",
+    "agricultural_interpretation": "Climate suitability for crops"
+  },
+  {
+    "rule_id": 157074,
+    "antecedents": [
+      "Yield_yield_per_hectare_Low",
+      "crop_variety_Peas_Standard",
+      "planting_season_Spring"
+    ],
+    "consequents": [
+      "crop_type_Peas",
+      "Rainfall_annual_rainfall_High"
+    ],
+    "support": 0.054,
+    "confidence": 1.0,
+    "lift": 17.921146953405017,
+    "conviction": Infinity,
+    "rule_category": "High-Impact Yield",
+    "agricultural_interpretation": "Strong predictor of high crop yields"
+  },
+  {
+    "rule_id": 157073,
+    "antecedents": [
+      "Yield_yield_per_hectare_Low",
+      "crop_type_Peas",
+      "Rainfall_annual_rainfall_High"
+    ],
+    "consequents": [
+      "crop_variety_Peas_Standard",
+      "planting_season_Spring"
+    ],
+    "support": 0.054,
+    "confidence": 1.0,
+    "lift": 17.921146953405017,
+    "conviction": Infinity,
+    "rule_category": "High-Impact Yield",
+    "agricultural_interpretation": "Strong predictor of high crop yields"
+  },
+  {
+    "rule_id": 157072,
+    "antecedents": [
+      "crop_type_Peas",
+      "planting_season_Spring",
+      "Rainfall_annual_rainfall_High"
+    ],
+    "consequents": [
+      "Yield_yield_per_hectare_Low",
+      "crop_variety_Peas_Standard"
+    ],
+    "support": 0.054,
+    "confidence": 0.967741935483871,
+    "lift": 17.921146953405017,
+    "conviction": 29.326000000000025,
+    "rule_category": "High-Impact Yield",
+    "agricultural_interpretation": "Strong predictor of high crop yields"
+  },
+  {
+    "rule_id": 157070,
+    "antecedents": [
+      "Yield_yield_per_hectare_Low",
+      "crop_variety_Peas_Standard",
+      "Rainfall_annual_rainfall_High"
+    ],
+    "consequents": [
+      "crop_type_Peas",
+      "planting_season_Spring"
+    ],
+    "support": 0.054,
+    "confidence": 1.0,
+    "lift": 17.921146953405017,
+    "conviction": Infinity,
+    "rule_category": "High-Impact Yield",
+    "agricultural_interpretation": "Strong predictor of high crop yields"
+  },
+  {
+    "rule_id": 157069,
+    "antecedents": [
+      "crop_variety_Peas_Standard",
+      "planting_season_Spring",
+      "Rainfall_annual_rainfall_High"
+    ],
+    "consequents": [
+      "Yield_yield_per_hectare_Low",
+      "crop_type_Peas"
+    ],
+    "support": 0.054,
+    "confidence": 0.967741935483871,
+    "lift": 17.921146953405017,
+    "conviction": 29.326000000000025,
+    "rule_category": "High-Impact Yield",
+    "agricultural_interpretation": "Strong predictor of high crop yields"
+  },
+  {
+    "rule_id": 12435,
+    "antecedents": [
+      "crop_variety_Peas_Standard"
+    ],
+    "consequents": [
+      "crop_type_Peas",
+      "planting_season_Spring"
+    ],
+    "support": 0.0558,
+    "confidence": 1.0,
+    "lift": 17.921146953405017,
+    "conviction": Infinity,
+    "rule_category": "General Agriculture",
+    "agricultural_interpretation": "General agricultural associations"
+  },
+  {
+    "rule_id": 56282,
+    "antecedents": [
+      "Yield_yield_per_hectare_Low",
+      "crop_type_Peas"
+    ],
+    "consequents": [
+      "crop_variety_Peas_Standard",
+      "Temperature_avg_temperature_Cool"
+    ],
+    "support": 0.054,
+    "confidence": 1.0,
+    "lift": 17.921146953405017,
+    "conviction": Infinity,
+    "rule_category": "Climate-Yield",
+    "agricultural_interpretation": "Weather conditions affecting productivity"
+  },
+  {
+    "rule_id": 56281,
+    "antecedents": [
+      "Yield_yield_per_hectare_Low",
+      "crop_variety_Peas_Standard"
+    ],
+    "consequents": [
+      "crop_type_Peas",
+      "Temperature_avg_temperature_Cool"
+    ],
+    "support": 0.054,
+    "confidence": 1.0,
+    "lift": 17.921146953405017,
+    "conviction": Infinity,
+    "rule_category": "Climate-Yield",
+    "agricultural_interpretation": "Weather conditions affecting productivity"
+  },
+  {
+    "rule_id": 56279,
+    "antecedents": [
+      "Yield_yield_per_hectare_Low",
+      "crop_type_Peas",
+      "Temperature_avg_temperature_Cool"
+    ],
+    "consequents": [
+      "crop_variety_Peas_Standard"
+    ],
+    "support": 0.054,
+    "confidence": 1.0,
+    "lift": 17.921146953405017,
+    "conviction": Infinity,
+    "rule_category": "Climate-Yield",
+    "agricultural_interpretation": "Weather conditions affecting productivity"
+  },
+  {
+    "rule_id": 56278,
+    "antecedents": [
+      "Yield_yield_per_hectare_Low",
+      "crop_variety_Peas_Standard",
+      "Temperature_avg_temperature_Cool"
+    ],
+    "consequents": [
+      "crop_type_Peas"
+    ],
+    "support": 0.054,
+    "confidence": 1.0,
+    "lift": 17.921146953405017,
+    "conviction": Infinity,
+    "rule_category": "Climate-Yield",
+    "agricultural_interpretation": "Weather conditions affecting productivity"
+  },
+  {
+    "rule_id": 53057,
+    "antecedents": [
+      "crop_variety_Peas_Standard",
+      "Rainfall_annual_rainfall_High"
+    ],
+    "consequents": [
+      "crop_type_Peas",
+      "planting_season_Spring"
+    ],
+    "support": 0.0558,
+    "confidence": 1.0,
+    "lift": 17.921146953405017,
+    "conviction": Infinity,
+    "rule_category": "Climate-Crop",
+    "agricultural_interpretation": "Climate suitability for crops"
+  },
+  {
+    "rule_id": 53056,
+    "antecedents": [
+      "crop_variety_Peas_Standard",
+      "planting_season_Spring"
+    ],
+    "consequents": [
+      "crop_type_Peas",
+      "Rainfall_annual_rainfall_High"
+    ],
+    "support": 0.0558,
+    "confidence": 1.0,
+    "lift": 17.921146953405017,
+    "conviction": Infinity,
+    "rule_category": "Climate-Crop",
+    "agricultural_interpretation": "Climate suitability for crops"
+  },
+  {
+    "rule_id": 53055,
+    "antecedents": [
+      "crop_type_Peas",
+      "Rainfall_annual_rainfall_High"
+    ],
+    "consequents": [
+      "crop_variety_Peas_Standard",
+      "planting_season_Spring"
+    ],
+    "support": 0.0558,
+    "confidence": 1.0,
+    "lift": 17.921146953405017,
+    "conviction": Infinity,
+    "rule_category": "Climate-Crop",
+    "agricultural_interpretation": "Climate suitability for crops"
+  },
+  {
+    "rule_id": 53054,
+    "antecedents": [
+      "crop_type_Peas",
+      "planting_season_Spring"
+    ],
+    "consequents": [
+      "crop_variety_Peas_Standard",
+      "Rainfall_annual_rainfall_High"
+    ],
+    "support": 0.0558,
+    "confidence": 1.0,
+    "lift": 17.921146953405017,
+    "conviction": Infinity,
+    "rule_category": "Climate-Crop",
+    "agricultural_interpretation": "Climate suitability for crops"
+  },
+  {
+    "rule_id": 53052,
+    "antecedents": [
+      "crop_variety_Peas_Standard",
+      "planting_season_Spring",
+      "Rainfall_annual_rainfall_High"
+    ],
+    "consequents": [
+      "crop_type_Peas"
+    ],
+    "support": 0.0558,
+    "confidence": 1.0,
+    "lift": 17.921146953405017,
+    "conviction": Infinity,
+    "rule_category": "Climate-Crop",
+    "agricultural_interpretation": "Climate suitability for crops"
+  },
+  {
+    "rule_id": 53051,
+    "antecedents": [
+      "crop_type_Peas",
+      "Rainfall_annual_rainfall_High",
+      "planting_season_Spring"
+    ],
+    "consequents": [
+      "crop_variety_Peas_Standard"
+    ],
+    "support": 0.0558,
+    "confidence": 1.0,
+    "lift": 17.921146953405017,
+    "conviction": Infinity,
+    "rule_category": "Climate-Crop",
+    "agricultural_interpretation": "Climate suitability for crops"
+  },
+  {
+    "rule_id": 157085,
+    "antecedents": [
+      "crop_variety_Peas_Standard"
+    ],
+    "consequents": [
+      "crop_type_Peas",
+      "Yield_yield_per_hectare_Low",
+      "planting_season_Spring",
+      "Rainfall_annual_rainfall_High"
+    ],
+    "support": 0.054,
+    "confidence": 0.967741935483871,
+    "lift": 17.921146953405017,
+    "conviction": 29.326000000000025,
+    "rule_category": "High-Impact Yield",
+    "agricultural_interpretation": "Strong predictor of high crop yields"
+  },
+  {
+    "rule_id": 157084,
+    "antecedents": [
+      "Yield_yield_per_hectare_Low",
+      "crop_type_Peas"
+    ],
+    "consequents": [
+      "crop_variety_Peas_Standard",
+      "planting_season_Spring",
+      "Rainfall_annual_rainfall_High"
+    ],
+    "support": 0.054,
+    "confidence": 1.0,
+    "lift": 17.921146953405017,
+    "conviction": Infinity,
+    "rule_category": "High-Impact Yield",
+    "agricultural_interpretation": "Strong predictor of high crop yields"
+  },
+  {
+    "rule_id": 157083,
+    "antecedents": [
+      "crop_type_Peas",
+      "planting_season_Spring"
+    ],
+    "consequents": [
+      "Yield_yield_per_hectare_Low",
+      "crop_variety_Peas_Standard",
+      "Rainfall_annual_rainfall_High"
+    ],
+    "support": 0.054,
+    "confidence": 0.967741935483871,
+    "lift": 17.921146953405017,
+    "conviction": 29.326000000000025,
+    "rule_category": "High-Impact Yield",
+    "agricultural_interpretation": "Strong predictor of high crop yields"
+  },
+  {
+    "rule_id": 157081,
+    "antecedents": [
+      "Yield_yield_per_hectare_Low",
+      "crop_variety_Peas_Standard"
+    ],
+    "consequents": [
+      "crop_type_Peas",
+      "planting_season_Spring",
+      "Rainfall_annual_rainfall_High"
+    ],
+    "support": 0.054,
+    "confidence": 1.0,
+    "lift": 17.921146953405017,
+    "conviction": Infinity,
+    "rule_category": "High-Impact Yield",
+    "agricultural_interpretation": "Strong predictor of high crop yields"
+  },
+  {
+    "rule_id": 157080,
+    "antecedents": [
+      "crop_variety_Peas_Standard",
+      "planting_season_Spring"
+    ],
+    "consequents": [
+      "Yield_yield_per_hectare_Low",
+      "crop_type_Peas",
+      "Rainfall_annual_rainfall_High"
+    ],
+    "support": 0.054,
+    "confidence": 0.967741935483871,
+    "lift": 17.921146953405017,
+    "conviction": 29.326000000000025,
+    "rule_category": "High-Impact Yield",
+    "agricultural_interpretation": "Strong predictor of high crop yields"
+  },
+  {
+    "rule_id": 157079,
+    "antecedents": [
+      "crop_type_Peas",
+      "Rainfall_annual_rainfall_High"
+    ],
+    "consequents": [
+      "Yield_yield_per_hectare_Low",
+      "crop_variety_Peas_Standard",
+      "planting_season_Spring"
+    ],
+    "support": 0.054,
+    "confidence": 0.967741935483871,
+    "lift": 17.921146953405017,
+    "conviction": 29.326000000000025,
+    "rule_category": "High-Impact Yield",
+    "agricultural_interpretation": "Strong predictor of high crop yields"
+  },
+  {
+    "rule_id": 8145,
+    "antecedents": [
+      "crop_type_Peas"
+    ],
+    "consequents": [
+      "crop_variety_Peas_Standard",
+      "Rainfall_annual_rainfall_High"
+    ],
+    "support": 0.0558,
+    "confidence": 1.0,
+    "lift": 17.921146953405017,
+    "conviction": Infinity,
+    "rule_category": "Climate-Crop",
+    "agricultural_interpretation": "Climate suitability for crops"
+  },
+  {
+    "rule_id": 157078,
+    "antecedents": [
+      "crop_variety_Peas_Standard",
+      "Rainfall_annual_rainfall_High"
+    ],
+    "consequents": [
+      "crop_type_Peas",
+      "Yield_yield_per_hectare_Low",
+      "planting_season_Spring"
+    ],
+    "support": 0.054,
+    "confidence": 0.967741935483871,
+    "lift": 17.921146953405017,
+    "conviction": 29.326000000000025,
+    "rule_category": "High-Impact Yield",
+    "agricultural_interpretation": "Strong predictor of high crop yields"
+  },
+  {
+    "rule_id": 157077,
+    "antecedents": [
+      "crop_type_Peas",
+      "Yield_yield_per_hectare_Low",
+      "planting_season_Spring"
+    ],
+    "consequents": [
+      "crop_variety_Peas_Standard",
+      "Rainfall_annual_rainfall_High"
+    ],
+    "support": 0.054,
+    "confidence": 1.0,
+    "lift": 17.921146953405017,
+    "conviction": Infinity,
+    "rule_category": "High-Impact Yield",
+    "agricultural_interpretation": "Strong predictor of high crop yields"
+  },
+  {
+    "rule_id": 9146,
+    "antecedents": [
+      "crop_variety_Peas_Standard"
+    ],
+    "consequents": [
+      "crop_type_Peas",
+      "Temperature_avg_temperature_Cool"
+    ],
+    "support": 0.0558,
+    "confidence": 1.0,
+    "lift": 17.921146953405017,
+    "conviction": Infinity,
+    "rule_category": "Climate-Crop",
+    "agricultural_interpretation": "Climate suitability for crops"
+  },
+  {
+    "rule_id": 9145,
+    "antecedents": [
+      "crop_type_Peas",
+      "Temperature_avg_temperature_Cool"
+    ],
+    "consequents": [
+      "crop_variety_Peas_Standard"
+    ],
+    "support": 0.0558,
+    "confidence": 1.0,
+    "lift": 17.921146953405017,
+    "conviction": Infinity,
+    "rule_category": "Climate-Crop",
+    "agricultural_interpretation": "Climate suitability for crops"
+  },
+  {
+    "rule_id": 9144,
+    "antecedents": [
+      "crop_variety_Peas_Standard",
+      "Temperature_avg_temperature_Cool"
+    ],
+    "consequents": [
+      "crop_type_Peas"
+    ],
+    "support": 0.0558,
+    "confidence": 1.0,
+    "lift": 17.921146953405017,
+    "conviction": Infinity,
+    "rule_category": "Climate-Crop",
+    "agricultural_interpretation": "Climate suitability for crops"
+  }
+]

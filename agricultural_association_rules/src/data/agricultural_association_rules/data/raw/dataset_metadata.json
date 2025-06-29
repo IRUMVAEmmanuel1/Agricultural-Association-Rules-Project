@@ -1,0 +1,125 @@
+{
+  "dataset_info": {
+    "name": "Agricultural Association Rules Dataset",
+    "generated_date": "2025-06-29T13:40:38.095702",
+    "total_records": 5000,
+    "total_farms": 5000,
+    "total_fields": 5000
+  },
+  "column_descriptions": {
+    "farm_id": "Unique farm identifier",
+    "field_id": "Unique field identifier within farm",
+    "region": "Geographic region",
+    "latitude": "Field latitude coordinate",
+    "longitude": "Field longitude coordinate",
+    "elevation": "Field elevation in meters",
+    "soil_type": "Primary soil classification",
+    "soil_ph": "Soil pH level (acidity/alkalinity)",
+    "organic_matter_percent": "Percentage of organic matter in soil",
+    "nitrogen_content": "Available nitrogen in soil (ppm)",
+    "phosphorus_content": "Available phosphorus in soil (ppm)",
+    "potassium_content": "Available potassium in soil (ppm)",
+    "avg_temperature": "Average growing season temperature (\u00b0C)",
+    "annual_rainfall": "Total annual rainfall (mm)",
+    "humidity_percent": "Average relative humidity (%)",
+    "solar_radiation": "Average solar radiation (MJ/m\u00b2/day)",
+    "crop_type": "Primary crop grown",
+    "crop_variety": "Specific variety of crop",
+    "planting_date": "Date when crop was planted",
+    "harvest_date": "Date when crop was harvested",
+    "fertilizer_type": "Type of fertilizer applied",
+    "fertilizer_amount_kg_ha": "Fertilizer application rate (kg/hectare)",
+    "irrigation_method": "Irrigation system used",
+    "irrigation_frequency_days": "Days between irrigation cycles",
+    "tillage_type": "Soil preparation method",
+    "seed_rate_kg_ha": "Seeding rate (kg/hectare)",
+    "pest_pressure": "Level of pest infestation (Low/Medium/High)",
+    "disease_pressure": "Level of disease pressure (Low/Medium/High)",
+    "pesticide_used": "Whether pesticides were applied (Yes/No)",
+    "yield_per_hectare": "Crop yield (tonnes/hectare)",
+    "cost_per_hectare": "Total production cost ($/hectare)",
+    "revenue_per_hectare": "Total revenue ($/hectare)",
+    "profit_per_hectare": "Net profit ($/hectare)",
+    "water_usage_mm": "Irrigation water applied (mm)",
+    "carbon_footprint_kg_co2": "Carbon footprint (kg CO2 equivalent)"
+  },
+  "value_ranges": {
+    "soil_ph": [
+      5.5,
+      7.8
+    ],
+    "yield_per_hectare": [
+      0.71,
+      89.19
+    ],
+    "profit_per_hectare": [
+      -4213.79,
+      85697.74
+    ],
+    "water_usage_mm": [
+      0.0,
+      2715.6
+    ],
+    "carbon_footprint_kg_co2": [
+      80.3,
+      891.6
+    ]
+  },
+  "categorical_values": {
+    "crop_types": [
+      "Soybeans",
+      "Lettuce",
+      "Beans",
+      "Wheat",
+      "Corn",
+      "Potatoes",
+      "Tomatoes",
+      "Carrots",
+      "Rice",
+      "Peas",
+      "Onions",
+      "Cotton"
+    ],
+    "soil_types": [
+      "Clayey_Loam",
+      "Sandy",
+      "Clay",
+      "Silt",
+      "Sandy_Loam",
+      "Loam"
+    ],
+    "fertilizer_types": [
+      "Phosphorus_High",
+      "Potassium_High",
+      "No_Fertilizer",
+      "Nitrogen_High",
+      "NPK_Balanced",
+      "Organic_Compost",
+      "Urea"
+    ],
+    "irrigation_methods": [
+      "Drip_Irrigation",
+      "Subsurface_Drip",
+      "Sprinkler",
+      "Rainfall_Only",
+      "Micro_Sprinkler"
+    ],
+    "tillage_types": [
+      "Strip_Till",
+      "Reduced_Till",
+      "Deep_Till",
+      "Minimum_Till",
+      "No_Till",
+      "Conventional_Till"
+    ],
+    "regions": [
+      "California_Central_Valley",
+      "Midwest",
+      "Southwest",
+      "Northeast",
+      "Great_Plains",
+      "Southeast",
+      "Pacific_Northwest"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preprocessing_summary": {
+    "original_records": 5000,
+    "processed_records": 5000,
+    "original_columns": 35,
+    "processed_columns": 63,
+    "new_features_created": 28,
+    "transactions_created": 5000,
+    "columns_used_in_transactions": 31
+  },
+  "data_transformation": {
+    "continuous_variables_categorized": 11,
+    "categorization_methods": {
+      "fixed_bins": 9,
+      "quartiles": 2
+    }
+  },
+  "transaction_analysis": {
+    "total_transactions": 5000,
+    "avg_items_per_transaction": 30.787,
+    "min_items_per_transaction": 29,
+    "max_items_per_transaction": 31,
+    "total_unique_items": 147
+  },
+  "feature_categories": {
+    "direct_categorical": 10,
+    "categorized_continuous": 11,
+    "engineered_features": 10
+  }
+}

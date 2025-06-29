@@ -1,0 +1,633 @@
+{
+  "analysis_timestamp": "2025-06-29T14:08:50.598477",
+  "summary": {
+    "total_rules_analyzed": 141027,
+    "high_yield_rules": 10,
+    "profitability_rules": 31510,
+    "sustainability_rules": 786,
+    "crop_soil_combinations": 1710
+  },
+  "key_insights": {
+    "high_yield_patterns": {
+      "total_yield_rules": 10686,
+      "top_patterns": [
+        {
+          "conditions": "crop_variety_Peas_Standard",
+          "yield_outcome": "crop_type_Peas, Yield_yield_per_hectare_Low, planting_season_Spring, Rainfall_annual_rainfall_High",
+          "support": 0.054,
+          "confidence": 0.967741935483871,
+          "lift": 17.921146953405017,
+          "practical_meaning": "Multiple favorable conditions"
+        },
+        {
+          "conditions": "crop_type_Peas, planting_season_Spring",
+          "yield_outcome": "Yield_yield_per_hectare_Low, crop_variety_Peas_Standard, Rainfall_annual_rainfall_High",
+          "support": 0.054,
+          "confidence": 0.967741935483871,
+          "lift": 17.921146953405017,
+          "practical_meaning": "Multiple favorable conditions"
+        },
+        {
+          "conditions": "crop_variety_Peas_Standard, planting_season_Spring",
+          "yield_outcome": "Yield_yield_per_hectare_Low, crop_type_Peas, Rainfall_annual_rainfall_High",
+          "support": 0.054,
+          "confidence": 0.967741935483871,
+          "lift": 17.921146953405017,
+          "practical_meaning": "Multiple favorable conditions"
+        },
+        {
+          "conditions": "crop_type_Peas",
+          "yield_outcome": "Yield_yield_per_hectare_Low, crop_variety_Peas_Standard, Rainfall_annual_rainfall_High",
+          "support": 0.054,
+          "confidence": 0.967741935483871,
+          "lift": 17.921146953405017,
+          "practical_meaning": "Multiple favorable conditions"
+        },
+        {
+          "conditions": "crop_variety_Peas_Standard",
+          "yield_outcome": "Yield_yield_per_hectare_Low, crop_type_Peas, Rainfall_annual_rainfall_High",
+          "support": 0.054,
+          "confidence": 0.967741935483871,
+          "lift": 17.921146953405017,
+          "practical_meaning": "Multiple favorable conditions"
+        },
+        {
+          "conditions": "crop_type_Peas",
+          "yield_outcome": "Yield_yield_per_hectare_Low, crop_variety_Peas_Standard, planting_season_Spring, Rainfall_annual_rainfall_High",
+          "support": 0.054,
+          "confidence": 0.967741935483871,
+          "lift": 17.921146953405017,
+          "practical_meaning": "Multiple favorable conditions"
+        },
+        {
+          "conditions": "crop_type_Peas",
+          "yield_outcome": "Yield_yield_per_hectare_Low, crop_variety_Peas_Standard, Rainfall_annual_rainfall_High, Temperature_avg_temperature_Cool",
+          "support": 0.054,
+          "confidence": 0.967741935483871,
+          "lift": 17.921146953405017,
+          "practical_meaning": "Multiple favorable conditions"
+        },
+        {
+          "conditions": "crop_variety_Peas_Standard",
+          "yield_outcome": "Yield_yield_per_hectare_Low, crop_type_Peas, Rainfall_annual_rainfall_High, Temperature_avg_temperature_Cool",
+          "support": 0.054,
+          "confidence": 0.967741935483871,
+          "lift": 17.921146953405017,
+          "practical_meaning": "Multiple favorable conditions"
+        },
+        {
+          "conditions": "crop_type_Peas, Temperature_avg_temperature_Cool",
+          "yield_outcome": "Yield_yield_per_hectare_Low, crop_variety_Peas_Standard, Rainfall_annual_rainfall_High",
+          "support": 0.054,
+          "confidence": 0.967741935483871,
+          "lift": 17.921146953405017,
+          "practical_meaning": "Favorable climate: Temperature_avg_temperature_Cool"
+        },
+        {
+          "conditions": "crop_variety_Peas_Standard, Temperature_avg_temperature_Cool",
+          "yield_outcome": "Yield_yield_per_hectare_Low, crop_type_Peas, Rainfall_annual_rainfall_High",
+          "support": 0.054,
+          "confidence": 0.967741935483871,
+          "lift": 17.921146953405017,
+          "practical_meaning": "Favorable climate: Temperature_avg_temperature_Cool"
+        }
+      ],
+      "most_important_factors": {
+        "carbon_efficiency_category_VeryHigh": 2924,
+        "Profit_profit_per_hectare_VeryHigh": 2547,
+        "cost_efficiency_category_VeryHigh": 2169,
+        "planting_season_Spring": 2030,
+        "crop_variety_Carrots_Standard": 1997,
+        "crop_type_Carrots": 1997,
+        "profit_margin_category_High": 1979,
+        "pH_soil_ph_Neutral": 1357,
+        "CarbonFootprint_carbon_footprint_kg_co2_Medium": 984,
+        "Nitrogen_nitrogen_content_Medium": 979
+      },
+      "average_confidence": 0.7895024487358757,
+      "average_lift": 4.304468714734632
+    },
+    "profitability_patterns": {
+      "total_profit_rules": 31510,
+      "cost_efficiency_rules": 1172,
+      "top_profit_strategies": [
+        {
+          "description": "water: None, crop: Carrots",
+          "confidence": 0.9388379204892968,
+          "lift": 15.290519877675845,
+          "business_impact": "High Impact"
+        },
+        {
+          "description": "irrigation: Only, crop: Carrots",
+          "confidence": 0.9388379204892968,
+          "lift": 15.290519877675845,
+          "business_impact": "High Impact"
+        },
+        {
+          "description": "crop: Standard, water: None",
+          "confidence": 0.9388379204892968,
+          "lift": 15.290519877675845,
+          "business_impact": "High Impact"
+        },
+        {
+          "description": "irrigation: Only, crop: Standard",
+          "confidence": 0.9388379204892968,
+          "lift": 15.290519877675845,
+          "business_impact": "High Impact"
+        },
+        {
+          "description": "crop: Standard, water: None",
+          "confidence": 1.0,
+          "lift": 15.29051987767584,
+          "business_impact": "High Impact"
+        }
+      ],
+      "cost_optimization_factors": {
+        "Profit_profit_per_hectare_High": 632,
+        "Yield_yield_per_hectare_High": 462,
+        "profit_margin_category_High": 310,
+        "planting_season_Spring": 309,
+        "CarbonFootprint_carbon_footprint_kg_co2_Medium": 254,
+        "crop_type_Corn": 243,
+        "carbon_efficiency_category_High": 166,
+        "pH_soil_ph_Neutral": 121,
+        "fertilizer_type_NPK_Balanced": 109,
+        "WaterUsage_water_usage_mm_Low": 84
+      },
+      "average_profit_confidence": 0.8191459704842989,
+      "average_profit_lift": 3.2590424178039545
+    },
+    "sustainability_patterns": {
+      "total_sustainability_rules": 786,
+      "sustainable_practices": [
+        {
+          "practices": "Yield_yield_per_hectare_High, irrigation_method_Rainfall_Only",
+          "sustainability_outcome": "CarbonFootprint_carbon_footprint_kg_co2_Medium, carbon_efficiency_category_High, water_efficiency_category_None",
+          "confidence": 0.6008403361344538,
+          "lift": 8.707830958470344,
+          "environmental_benefit": "Improved water conservation and efficiency"
+        },
+        {
+          "practices": "Yield_yield_per_hectare_High, irrigation_method_Rainfall_Only",
+          "sustainability_outcome": "CarbonFootprint_carbon_footprint_kg_co2_Medium, carbon_efficiency_category_High, WaterUsage_water_usage_mm_Low",
+          "confidence": 0.6008403361344538,
+          "lift": 7.644279085680073,
+          "environmental_benefit": "Reduced carbon footprint and greenhouse gas emissions"
+        },
+        {
+          "practices": "Yield_yield_per_hectare_High, irrigation_method_Rainfall_Only",
+          "sustainability_outcome": "carbon_efficiency_category_High, water_efficiency_category_None, profit_margin_category_High",
+          "confidence": 0.6470588235294118,
+          "lift": 7.612456747404845,
+          "environmental_benefit": "Improved water conservation and efficiency"
+        },
+        {
+          "practices": "Yield_yield_per_hectare_High, irrigation_method_Rainfall_Only",
+          "sustainability_outcome": "carbon_efficiency_category_High, water_efficiency_category_None, planting_season_Spring",
+          "confidence": 0.6092436974789917,
+          "lift": 7.503001200480194,
+          "environmental_benefit": "Improved water conservation and efficiency"
+        },
+        {
+          "practices": "cost_efficiency_category_VeryHigh, irrigation_method_Subsurface_Drip",
+          "sustainability_outcome": "water_efficiency_category_High, profit_margin_category_High",
+          "confidence": 0.9961685823754788,
+          "lift": 7.445206146304027,
+          "environmental_benefit": "Improved water conservation and efficiency"
+        },
+        {
+          "practices": "Profit_profit_per_hectare_VeryHigh, irrigation_method_Subsurface_Drip",
+          "sustainability_outcome": "water_efficiency_category_High, profit_margin_category_High",
+          "confidence": 0.9819494584837544,
+          "lift": 7.338934667292634,
+          "environmental_benefit": "Improved water conservation and efficiency"
+        },
+        {
+          "practices": "Yield_yield_per_hectare_VeryHigh, irrigation_method_Subsurface_Drip",
+          "sustainability_outcome": "water_efficiency_category_High, planting_season_Spring",
+          "confidence": 0.9781818181818182,
+          "lift": 7.171420954412157,
+          "environmental_benefit": "Improved water conservation and efficiency"
+        },
+        {
+          "practices": "Profit_profit_per_hectare_High, crop_type_Corn",
+          "sustainability_outcome": "cost_efficiency_category_High, carbon_efficiency_category_High, planting_season_Spring",
+          "confidence": 0.6563307493540053,
+          "lift": 6.982242014404311,
+          "environmental_benefit": "Reduced carbon footprint and greenhouse gas emissions"
+        },
+        {
+          "practices": "carbon_efficiency_category_VeryHigh, irrigation_method_Subsurface_Drip",
+          "sustainability_outcome": "water_efficiency_category_High, planting_season_Spring",
+          "confidence": 0.9505703422053232,
+          "lift": 6.968990778631402,
+          "environmental_benefit": "Improved water conservation and efficiency"
+        },
+        {
+          "practices": "Yield_yield_per_hectare_VeryHigh, irrigation_method_Subsurface_Drip",
+          "sustainability_outcome": "water_efficiency_category_High, profit_margin_category_High",
+          "confidence": 0.9090909090909092,
+          "lift": 6.794401413235494,
+          "environmental_benefit": "Improved water conservation and efficiency"
+        }
+      ],
+      "eco_friendly_combinations": [
+        {
+          "description": "Yield: High, irrigation: Only",
+          "confidence": 0.6008403361344538,
+          "lift": 8.707830958470344,
+          "impact": "Improved water conservation and efficiency"
+        },
+        {
+          "description": "Yield: High, irrigation: Only",
+          "confidence": 0.6008403361344538,
+          "lift": 7.644279085680073,
+          "impact": "Reduced carbon footprint and greenhouse gas emissions"
+        },
+        {
+          "description": "Yield: High, irrigation: Only",
+          "confidence": 0.6470588235294118,
+          "lift": 7.612456747404845,
+          "impact": "Improved water conservation and efficiency"
+        },
+        {
+          "description": "Yield: High, irrigation: Only",
+          "confidence": 0.6092436974789917,
+          "lift": 7.503001200480194,
+          "impact": "Improved water conservation and efficiency"
+        },
+        {
+          "description": "cost: VeryHigh, irrigation: Drip",
+          "confidence": 0.9961685823754788,
+          "lift": 7.445206146304027,
+          "impact": "Improved water conservation and efficiency"
+        }
+      ],
+      "average_sustainability_confidence": 0.7079028212826124,
+      "average_sustainability_lift": 3.6795092318418705
+    },
+    "crop_soil_combinations": {
+      "total_combinations": 1710,
+      "crop_specific_recommendations": {
+        "Carrots": [
+          {
+            "soil_conditions": "pH_soil_ph_Neutral",
+            "confidence": 1.0,
+            "lift": 15.29051987767584,
+            "outcome": "irrigation_method_Rainfall_Only, crop_variety_Carrots_Standard"
+          },
+          {
+            "soil_conditions": "pH_soil_ph_Neutral",
+            "confidence": 1.0,
+            "lift": 15.29051987767584,
+            "outcome": "crop_variety_Carrots_Standard, water_efficiency_category_None"
+          },
+          {
+            "soil_conditions": "pH_soil_ph_Neutral",
+            "confidence": 1.0,
+            "lift": 12.437810945273633,
+            "outcome": "crop_variety_Carrots_Standard, WaterUsage_water_usage_mm_Low"
+          },
+          {
+            "soil_conditions": "pH_soil_ph_Neutral",
+            "confidence": 1.0,
+            "lift": 12.437810945273633,
+            "outcome": "crop_variety_Carrots_Standard, WaterUsage_water_usage_mm_Low"
+          },
+          {
+            "soil_conditions": "pH_soil_ph_Neutral",
+            "confidence": 1.0,
+            "lift": 7.633587786259541,
+            "outcome": "crop_variety_Carrots_Standard"
+          }
+        ],
+        "Lettuce": [
+          {
+            "soil_conditions": "pH_soil_ph_Neutral",
+            "confidence": 1.0,
+            "lift": 12.406947890818858,
+            "outcome": "crop_variety_Lettuce_Standard, Profit_profit_per_hectare_VeryHigh"
+          },
+          {
+            "soil_conditions": "pH_soil_ph_Neutral",
+            "confidence": 1.0,
+            "lift": 12.376237623762377,
+            "outcome": "crop_variety_Lettuce_Standard"
+          },
+          {
+            "soil_conditions": "pH_soil_ph_Neutral",
+            "confidence": 1.0,
+            "lift": 12.376237623762377,
+            "outcome": "crop_variety_Lettuce_Standard, profit_margin_category_High"
+          },
+          {
+            "soil_conditions": "pH_soil_ph_Neutral",
+            "confidence": 1.0,
+            "lift": 12.376237623762377,
+            "outcome": "crop_variety_Lettuce_Standard"
+          },
+          {
+            "soil_conditions": "pH_soil_ph_Neutral",
+            "confidence": 1.0,
+            "lift": 12.376237623762377,
+            "outcome": "crop_variety_Lettuce_Standard"
+          }
+        ],
+        "Potatoes": [
+          {
+            "soil_conditions": "pH_soil_ph_Neutral",
+            "confidence": 1.0,
+            "lift": 1.3089005235602094,
+            "outcome": "planting_season_Spring"
+          },
+          {
+            "soil_conditions": "pH_soil_ph_Neutral",
+            "confidence": 1.0,
+            "lift": 1.3089005235602094,
+            "outcome": "planting_season_Spring"
+          },
+          {
+            "soil_conditions": "pH_soil_ph_Neutral",
+            "confidence": 1.0,
+            "lift": 1.3089005235602094,
+            "outcome": "planting_season_Spring"
+          },
+          {
+            "soil_conditions": "pH_soil_ph_Neutral",
+            "confidence": 1.0,
+            "lift": 1.3089005235602094,
+            "outcome": "planting_season_Spring"
+          },
+          {
+            "soil_conditions": "pH_soil_ph_Neutral",
+            "confidence": 1.0,
+            "lift": 1.3089005235602094,
+            "outcome": "planting_season_Spring"
+          }
+        ],
+        "Beans": [
+          {
+            "soil_conditions": "pH_soil_ph_Neutral",
+            "confidence": 1.0,
+            "lift": 9.00900900900901,
+            "outcome": "crop_variety_Beans_Standard"
+          },
+          {
+            "soil_conditions": "pH_soil_ph_Neutral",
+            "confidence": 1.0,
+            "lift": 9.00900900900901,
+            "outcome": "planting_season_Spring, crop_variety_Beans_Standard"
+          },
+          {
+            "soil_conditions": "pH_soil_ph_Neutral",
+            "confidence": 1.0,
+            "lift": 9.00900900900901,
+            "outcome": "crop_variety_Beans_Standard"
+          },
+          {
+            "soil_conditions": "pH_soil_ph_Neutral",
+            "confidence": 1.0,
+            "lift": 9.00900900900901,
+            "outcome": "crop_variety_Beans_Standard"
+          },
+          {
+            "soil_conditions": "pH_soil_ph_Neutral",
+            "confidence": 1.0,
+            "lift": 9.00900900900901,
+            "outcome": "planting_season_Spring, crop_variety_Beans_Standard"
+          }
+        ],
+        "Wheat": [
+          {
+            "soil_conditions": "pH_soil_ph_Neutral",
+            "confidence": 1.0,
+            "lift": 6.410256410256411,
+            "outcome": "planting_season_Fall"
+          },
+          {
+            "soil_conditions": "pH_soil_ph_Neutral, Nitrogen_nitrogen_content_Medium",
+            "confidence": 1.0,
+            "lift": 6.410256410256411,
+            "outcome": "planting_season_Fall"
+          },
+          {
+            "soil_conditions": "pH_soil_ph_Neutral",
+            "confidence": 1.0,
+            "lift": 6.410256410256411,
+            "outcome": "planting_season_Fall"
+          },
+          {
+            "soil_conditions": "pH_soil_ph_Neutral",
+            "confidence": 1.0,
+            "lift": 6.410256410256411,
+            "outcome": "planting_season_Fall"
+          },
+          {
+            "soil_conditions": "pH_soil_ph_Neutral",
+            "confidence": 1.0,
+            "lift": 6.410256410256411,
+            "outcome": "planting_season_Fall"
+          }
+        ],
+        "Corn": [
+          {
+            "soil_conditions": "pH_soil_ph_Neutral",
+            "confidence": 1.0,
+            "lift": 2.1321961620469083,
+            "outcome": "planting_season_Spring, profit_margin_category_High"
+          },
+          {
+            "soil_conditions": "pH_soil_ph_Neutral",
+            "confidence": 1.0,
+            "lift": 1.8621973929236495,
+            "outcome": "profit_margin_category_High"
+          },
+          {
+            "soil_conditions": "pH_soil_ph_Neutral",
+            "confidence": 1.0,
+            "lift": 1.8621973929236495,
+            "outcome": "profit_margin_category_High"
+          },
+          {
+            "soil_conditions": "pH_soil_ph_Neutral",
+            "confidence": 1.0,
+            "lift": 1.8621973929236495,
+            "outcome": "profit_margin_category_High"
+          },
+          {
+            "soil_conditions": "pH_soil_ph_Neutral",
+            "confidence": 1.0,
+            "lift": 1.3089005235602094,
+            "outcome": "planting_season_Spring"
+          }
+        ],
+        "Soybeans": [
+          {
+            "soil_conditions": "pH_soil_ph_Neutral",
+            "confidence": 0.7142857142857142,
+            "lift": 1.2856114367993416,
+            "outcome": "water_efficiency_category_None"
+          }
+        ]
+      },
+      "most_versatile_soils": {},
+      "most_adaptable_crops": {
+        "crop_type_Carrots": 1348,
+        "crop_type_Lettuce": 105,
+        "crop_type_Corn": 91,
+        "crop_type_Potatoes": 59,
+        "crop_type_Wheat": 59
+      }
+    },
+    "regional_patterns": {
+      "Southeast": {
+        "total_rules": 2487,
+        "characteristic_practices": [
+          "region: Southeast, sustainability: Low",
+          "pesticide: Yes, Temperature: Moderate, Rainfall: High",
+          "sustainability: Low, Temperature: Moderate, Rainfall: High"
+        ],
+        "performance_indicators": [],
+        "climate_adaptations": [
+          "Rainfall_annual_rainfall_High",
+          "Temperature_avg_temperature_Moderate",
+          "irrigation_method_Rainfall_Only"
+        ]
+      },
+      "Great_Plains": {
+        "total_rules": 189,
+        "characteristic_practices": [
+          "region: Plains, profit: High",
+          "region: Plains, water: None",
+          "region: Plains, pH: Neutral"
+        ],
+        "performance_indicators": [],
+        "climate_adaptations": [
+          "Rainfall_annual_rainfall_Medium",
+          "Temperature_avg_temperature_Cool"
+        ]
+      },
+      "Northeast": {
+        "total_rules": 874,
+        "characteristic_practices": [
+          "irrigation: Only, region: Northeast",
+          "region: Northeast, water: None",
+          "irrigation: Only, region: Northeast"
+        ],
+        "performance_indicators": [],
+        "climate_adaptations": [
+          "Rainfall_annual_rainfall_High",
+          "irrigation_method_Rainfall_Only",
+          "Temperature_avg_temperature_Cool"
+        ]
+      },
+      "Midwest": {
+        "total_rules": 586,
+        "characteristic_practices": [
+          "irrigation: Only, region: Midwest",
+          "irrigation: Only, region: Midwest",
+          "water: None, WaterUsage: Low, region: Midwest"
+        ],
+        "performance_indicators": [],
+        "climate_adaptations": [
+          "Rainfall_annual_rainfall_High",
+          "irrigation_method_Rainfall_Only",
+          "Temperature_avg_temperature_Cool"
+        ]
+      },
+      "Pacific_Northwest": {
+        "total_rules": 651,
+        "characteristic_practices": [
+          "region: Northwest, irrigation: Only",
+          "region: Northwest, water: None",
+          "region: Northwest, irrigation: Only"
+        ],
+        "performance_indicators": [],
+        "climate_adaptations": [
+          "Rainfall_annual_rainfall_High",
+          "irrigation_method_Rainfall_Only",
+          "Temperature_avg_temperature_Cool"
+        ]
+      },
+      "Southwest": {
+        "total_rules": 286,
+        "characteristic_practices": [
+          "Profit: VeryHigh, region: Southwest",
+          "Profit: VeryHigh, region: Southwest",
+          "Profit: VeryHigh, region: Southwest, profit: High"
+        ],
+        "performance_indicators": [],
+        "climate_adaptations": [
+          "Temperature_avg_temperature_Moderate",
+          "Rainfall_annual_rainfall_Medium",
+          "Rainfall_annual_rainfall_Low"
+        ]
+      },
+      "California_Central_Valley": {
+        "total_rules": 145,
+        "characteristic_practices": [
+          "Nitrogen: Medium, region: Valley",
+          "pH: Neutral, planting: Spring, region: Valley",
+          "region: Valley, pH: Neutral"
+        ],
+        "performance_indicators": [],
+        "climate_adaptations": [
+          "Rainfall_annual_rainfall_Low",
+          "Temperature_avg_temperature_Moderate"
+        ]
+      }
+    },
+    "recommendations": {
+      "yield_optimization": [],
+      "profit_maximization": [
+        "Implement: water: None, crop: Carrots",
+        "Implement: irrigation: Only, crop: Carrots",
+        "Implement: crop: Standard, water: None"
+      ],
+      "sustainability_improvement": [
+        "Adopt sustainable practice: Yield: High, irrigation: Only",
+        "Adopt sustainable practice: Yield: High, irrigation: Only",
+        "Adopt sustainable practice: Yield: High, irrigation: Only"
+      ],
+      "crop_selection_guide": [
+        "Carrots: Best with pH_soil_ph_Neutral",
+        "Lettuce: Best with pH_soil_ph_Neutral",
+        "Potatoes: Best with pH_soil_ph_Neutral"
+      ],
+      "regional_best_practices": [
+        "Southeast: region: Southeast, sustainability: Low",
+        "Great_Plains: region: Plains, profit: High",
+        "Northeast: irrigation: Only, region: Northeast"
+      ]
+    }
+  },
+  "actionable_recommendations": {
+    "yield_optimization": [],
+    "profit_maximization": [
+      "Implement: water: None, crop: Carrots",
+      "Implement: irrigation: Only, crop: Carrots",
+      "Implement: crop: Standard, water: None"
+    ],
+    "sustainability_improvement": [
+      "Adopt sustainable practice: Yield: High, irrigation: Only",
+      "Adopt sustainable practice: Yield: High, irrigation: Only",
+      "Adopt sustainable practice: Yield: High, irrigation: Only"
+    ],
+    "crop_selection_guide": [
+      "Carrots: Best with pH_soil_ph_Neutral",
+      "Lettuce: Best with pH_soil_ph_Neutral",
+      "Potatoes: Best with pH_soil_ph_Neutral"
+    ],
+    "regional_best_practices": [
+      "Southeast: region: Southeast, sustainability: Low",
+      "Great_Plains: region: Plains, profit: High",
+      "Northeast: irrigation: Only, region: Northeast"
+    ]
+  },
+  "methodology": {
+    "association_rules_mining": "Apriori algorithm with agricultural transaction data",
+    "confidence_threshold": "Rules with confidence >= 60%",
+    "lift_threshold": "Rules with lift >= 1.2 (20% improvement)",
+    "agricultural_interpretation": "Domain-specific categorization and analysis"
+  }
+}

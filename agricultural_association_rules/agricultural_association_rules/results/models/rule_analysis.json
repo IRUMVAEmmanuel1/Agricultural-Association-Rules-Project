@@ -1,0 +1,279 @@
+{
+  "category_distribution": {
+    "Soil Management": 46238,
+    "Environmental": 28383,
+    "Economic Performance": 15434,
+    "Soil-Yield": 12319,
+    "High-Impact Yield": 9886,
+    "High-Impact Profit": 9000,
+    "Climate-Yield": 7669,
+    "Climate-Crop": 3912,
+    "Soil-Crop": 3551,
+    "Sustainability": 3240,
+    "Practice-Performance": 605,
+    "General Agriculture": 496,
+    "Farm Management": 183,
+    "Sustainable Practices": 89,
+    "Regional Patterns": 22
+  },
+  "metrics_statistics": {
+    "support": {
+      "mean": 0.0710691130067292,
+      "median": 0.0632,
+      "std": 0.024807843751072443,
+      "min": 0.05,
+      "max": 0.45
+    },
+    "confidence": {
+      "mean": 0.8009462039034764,
+      "median": 0.788135593220339,
+      "std": 0.12680276610301763,
+      "min": 0.6,
+      "max": 1.0
+    },
+    "lift": {
+      "mean": 2.8911202708848585,
+      "median": 2.0606282626614156,
+      "std": 1.9563218438153653,
+      "min": 1.2000131369859206,
+      "max": 17.921146953405017
+    }
+  },
+  "top_rules_by_category": {
+    "Soil Management": [
+      {
+        "antecedents": [
+          "irrigation_method_Rainfall_Only",
+          "OrganicMatter_organic_matter_percent_Low"
+        ],
+        "consequents": [
+          "soil_type_Sandy",
+          "water_efficiency_category_None",
+          "WaterUsage_water_usage_mm_Low"
+        ],
+        "support": 0.0526,
+        "confidence": 0.7712609970674487,
+        "lift": 11.049584485207001,
+        "interpretation": "Soil nutrition and management practices"
+      },
+      {
+        "antecedents": [
+          "soil_type_Sandy",
+          "irrigation_method_Rainfall_Only"
+        ],
+        "consequents": [
+          "OrganicMatter_organic_matter_percent_Low",
+          "water_efficiency_category_None",
+          "WaterUsage_water_usage_mm_Low"
+        ],
+        "support": 0.0526,
+        "confidence": 0.7535816618911174,
+        "lift": 11.049584485207001,
+        "interpretation": "Soil nutrition and management practices"
+      },
+      {
+        "antecedents": [
+          "soil_type_Sandy",
+          "water_efficiency_category_None",
+          "WaterUsage_water_usage_mm_Low"
+        ],
+        "consequents": [
+          "irrigation_method_Rainfall_Only",
+          "OrganicMatter_organic_matter_percent_Low"
+        ],
+        "support": 0.0526,
+        "confidence": 0.7535816618911174,
+        "lift": 11.049584485207001,
+        "interpretation": "Soil nutrition and management practices"
+      }
+    ],
+    "Environmental": [
+      {
+        "antecedents": [
+          "region_Southeast",
+          "sustainability_level_Low"
+        ],
+        "consequents": [
+          "pesticide_used_Yes",
+          "Temperature_avg_temperature_Moderate",
+          "Rainfall_annual_rainfall_High"
+        ],
+        "support": 0.053,
+        "confidence": 0.99250936329588,
+        "lift": 12.957041296290862,
+        "interpretation": "Climate and environmental factors"
+      },
+      {
+        "antecedents": [
+          "pesticide_used_Yes",
+          "Temperature_avg_temperature_Moderate",
+          "Rainfall_annual_rainfall_High"
+        ],
+        "consequents": [
+          "region_Southeast",
+          "sustainability_level_Low"
+        ],
+        "support": 0.053,
+        "confidence": 0.691906005221932,
+        "lift": 12.95704129629086,
+        "interpretation": "Climate and environmental factors"
+      },
+      {
+        "antecedents": [
+          "sustainability_level_Low",
+          "Temperature_avg_temperature_Moderate",
+          "Rainfall_annual_rainfall_High"
+        ],
+        "consequents": [
+          "pesticide_used_Yes",
+          "region_Southeast"
+        ],
+        "support": 0.053,
+        "confidence": 1.0,
+        "lift": 12.953367875647668,
+        "interpretation": "Climate and environmental factors"
+      }
+    ],
+    "Economic Performance": [
+      {
+        "antecedents": [
+          "crop_type_Beans",
+          "Yield_yield_per_hectare_Low",
+          "Profit_profit_per_hectare_Low"
+        ],
+        "consequents": [
+          "cost_efficiency_category_Low",
+          "crop_variety_Beans_Standard"
+        ],
+        "support": 0.0666,
+        "confidence": 0.9380281690140846,
+        "lift": 12.99207990324217,
+        "interpretation": "Financial performance factors"
+      },
+      {
+        "antecedents": [
+          "Yield_yield_per_hectare_Low",
+          "crop_variety_Beans_Standard",
+          "Profit_profit_per_hectare_Low"
+        ],
+        "consequents": [
+          "crop_type_Beans",
+          "cost_efficiency_category_Low"
+        ],
+        "support": 0.0666,
+        "confidence": 0.9380281690140846,
+        "lift": 12.99207990324217,
+        "interpretation": "Financial performance factors"
+      },
+      {
+        "antecedents": [
+          "crop_type_Beans",
+          "cost_efficiency_category_Low"
+        ],
+        "consequents": [
+          "Yield_yield_per_hectare_Low",
+          "crop_variety_Beans_Standard",
+          "Profit_profit_per_hectare_Low"
+        ],
+        "support": 0.0666,
+        "confidence": 0.9224376731301939,
+        "lift": 12.992079903242168,
+        "interpretation": "Financial performance factors"
+      }
+    ],
+    "Soil-Yield": [
+      {
+        "antecedents": [
+          "crop_variety_Lettuce_Standard",
+          "pH_soil_ph_Neutral"
+        ],
+        "consequents": [
+          "Yield_yield_per_hectare_High",
+          "crop_type_Lettuce",
+          "profit_margin_category_High"
+        ],
+        "support": 0.059,
+        "confidence": 0.7722513089005235,
+        "lift": 12.495975872176755,
+        "interpretation": "Soil conditions affecting crop yield"
+      },
+      {
+        "antecedents": [
+          "crop_type_Lettuce",
+          "pH_soil_ph_Neutral"
+        ],
+        "consequents": [
+          "crop_variety_Lettuce_Standard",
+          "Yield_yield_per_hectare_High",
+          "profit_margin_category_High"
+        ],
+        "support": 0.059,
+        "confidence": 0.7722513089005235,
+        "lift": 12.495975872176755,
+        "interpretation": "Soil conditions affecting crop yield"
+      },
+      {
+        "antecedents": [
+          "crop_variety_Lettuce_Standard",
+          "pH_soil_ph_Neutral",
+          "profit_margin_category_High"
+        ],
+        "consequents": [
+          "Yield_yield_per_hectare_High",
+          "crop_type_Lettuce"
+        ],
+        "support": 0.059,
+        "confidence": 0.7722513089005235,
+        "lift": 12.495975872176755,
+        "interpretation": "Soil conditions affecting crop yield"
+      }
+    ],
+    "High-Impact Yield": [
+      {
+        "antecedents": [
+          "Yield_yield_per_hectare_Low",
+          "crop_variety_Peas_Standard",
+          "planting_season_Spring"
+        ],
+        "consequents": [
+          "crop_type_Peas",
+          "Rainfall_annual_rainfall_High"
+        ],
+        "support": 0.054,
+        "confidence": 1.0,
+        "lift": 17.921146953405017,
+        "interpretation": "Strong predictor of high crop yields"
+      },
+      {
+        "antecedents": [
+          "Yield_yield_per_hectare_Low",
+          "crop_type_Peas",
+          "Rainfall_annual_rainfall_High"
+        ],
+        "consequents": [
+          "crop_variety_Peas_Standard",
+          "planting_season_Spring"
+        ],
+        "support": 0.054,
+        "confidence": 1.0,
+        "lift": 17.921146953405017,
+        "interpretation": "Strong predictor of high crop yields"
+      },
+      {
+        "antecedents": [
+          "crop_type_Peas",
+          "planting_season_Spring",
+          "Rainfall_annual_rainfall_High"
+        ],
+        "consequents": [
+          "Yield_yield_per_hectare_Low",
+          "crop_variety_Peas_Standard"
+        ],
+        "support": 0.054,
+        "confidence": 0.967741935483871,
+        "lift": 17.921146953405017,
+        "interpretation": "Strong predictor of high crop yields"
+      }
+    ]
+  }
+}

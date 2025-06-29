@@ -1,0 +1,6 @@
+description,confidence,lift,business_impact
+"water: None, crop: Carrots",0.9388379204892968,15.290519877675845,High Impact
+"irrigation: Only, crop: Carrots",0.9388379204892968,15.290519877675845,High Impact
+"crop: Standard, water: None",0.9388379204892968,15.290519877675845,High Impact
+"irrigation: Only, crop: Standard",0.9388379204892968,15.290519877675845,High Impact
+"crop: Standard, water: None",1.0,15.29051987767584,High Impact

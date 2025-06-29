@@ -1,0 +1,11 @@
+conditions,yield_outcome,support,confidence,lift,practical_meaning
+crop_variety_Peas_Standard,"crop_type_Peas, Yield_yield_per_hectare_Low, planting_season_Spring, Rainfall_annual_rainfall_High",0.054,0.967741935483871,17.921146953405017,Multiple favorable conditions
+"crop_type_Peas, planting_season_Spring","Yield_yield_per_hectare_Low, crop_variety_Peas_Standard, Rainfall_annual_rainfall_High",0.054,0.967741935483871,17.921146953405017,Multiple favorable conditions
+"crop_variety_Peas_Standard, planting_season_Spring","Yield_yield_per_hectare_Low, crop_type_Peas, Rainfall_annual_rainfall_High",0.054,0.967741935483871,17.921146953405017,Multiple favorable conditions
+crop_type_Peas,"Yield_yield_per_hectare_Low, crop_variety_Peas_Standard, Rainfall_annual_rainfall_High",0.054,0.967741935483871,17.921146953405017,Multiple favorable conditions
+crop_variety_Peas_Standard,"Yield_yield_per_hectare_Low, crop_type_Peas, Rainfall_annual_rainfall_High",0.054,0.967741935483871,17.921146953405017,Multiple favorable conditions
+crop_type_Peas,"Yield_yield_per_hectare_Low, crop_variety_Peas_Standard, planting_season_Spring, Rainfall_annual_rainfall_High",0.054,0.967741935483871,17.921146953405017,Multiple favorable conditions
+crop_type_Peas,"Yield_yield_per_hectare_Low, crop_variety_Peas_Standard, Rainfall_annual_rainfall_High, Temperature_avg_temperature_Cool",0.054,0.967741935483871,17.921146953405017,Multiple favorable conditions
+crop_variety_Peas_Standard,"Yield_yield_per_hectare_Low, crop_type_Peas, Rainfall_annual_rainfall_High, Temperature_avg_temperature_Cool",0.054,0.967741935483871,17.921146953405017,Multiple favorable conditions
+"crop_type_Peas, Temperature_avg_temperature_Cool","Yield_yield_per_hectare_Low, crop_variety_Peas_Standard, Rainfall_annual_rainfall_High",0.054,0.967741935483871,17.921146953405017,Favorable climate: Temperature_avg_temperature_Cool
+"crop_variety_Peas_Standard, Temperature_avg_temperature_Cool","Yield_yield_per_hectare_Low, crop_type_Peas, Rainfall_annual_rainfall_High",0.054,0.967741935483871,17.921146953405017,Favorable climate: Temperature_avg_temperature_Cool

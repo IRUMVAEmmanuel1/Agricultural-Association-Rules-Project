@@ -1,0 +1,11 @@
+pattern,outcome,confidence,lift
+crop_type_Tomatoes,"profit_category_VeryHigh, planting_season_Spring, yield_category_VeryHigh",0.7626774847870184,4.3631435056465575
+"planting_season_Spring, crop_type_Tomatoes","profit_category_VeryHigh, yield_category_VeryHigh",0.7626774847870184,4.3631435056465575
+crop_type_Tomatoes,"profit_category_VeryHigh, yield_category_VeryHigh",0.7626774847870184,4.3631435056465575
+crop_type_Tomatoes,"soil_ph_category_Neutral, yield_category_VeryHigh",0.6430020283975659,4.148400183210103
+"planting_season_Spring, crop_type_Tomatoes","soil_ph_category_Neutral, yield_category_VeryHigh",0.6430020283975659,4.148400183210103
+crop_type_Tomatoes,"planting_season_Spring, soil_ph_category_Neutral, yield_category_VeryHigh",0.6430020283975659,4.148400183210103
+crop_type_Tomatoes,"annual_rainfall_category_High, yield_category_VeryHigh",0.6288032454361056,4.04635293073427
+"planting_season_Spring, crop_type_Tomatoes","annual_rainfall_category_High, yield_category_VeryHigh",0.6288032454361056,4.04635293073427
+crop_type_Tomatoes,"annual_rainfall_category_High, planting_season_Spring, yield_category_VeryHigh",0.6288032454361056,4.04635293073427
+"crop_type_Tomatoes, disease_pressure_Low","planting_season_Spring, yield_category_VeryHigh",1.0,4.0

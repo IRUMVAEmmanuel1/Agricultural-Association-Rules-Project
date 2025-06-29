@@ -1,0 +1,207 @@
+{
+  "preprocessing_timestamp": "2025-06-29T13:40:58.082079",
+  "original_records": 5000,
+  "transactions_created": 5000,
+  "categorization_rules": {
+    "soil_ph": {
+      "method": "fixed_bins",
+      "bins": [
+        0,
+        5.5,
+        7.0,
+        14
+      ],
+      "labels": [
+        "Acidic",
+        "Neutral",
+        "Alkaline"
+      ]
+    },
+    "organic_matter_percent": {
+      "method": "fixed_bins",
+      "bins": [
+        0,
+        2,
+        4,
+        10
+      ],
+      "labels": [
+        "Low",
+        "Medium",
+        "High"
+      ]
+    },
+    "nitrogen_content": {
+      "method": "fixed_bins",
+      "bins": [
+        0,
+        20,
+        40,
+        100
+      ],
+      "labels": [
+        "Low",
+        "Medium",
+        "High"
+      ]
+    },
+    "phosphorus_content": {
+      "method": "fixed_bins",
+      "bins": [
+        0,
+        25,
+        50,
+        100
+      ],
+      "labels": [
+        "Low",
+        "Medium",
+        "High"
+      ]
+    },
+    "potassium_content": {
+      "method": "fixed_bins",
+      "bins": [
+        0,
+        100,
+        200,
+        500
+      ],
+      "labels": [
+        "Low",
+        "Medium",
+        "High"
+      ]
+    },
+    "annual_rainfall": {
+      "method": "fixed_bins",
+      "bins": [
+        0,
+        400,
+        800,
+        2500
+      ],
+      "labels": [
+        "Low",
+        "Medium",
+        "High"
+      ]
+    },
+    "avg_temperature": {
+      "method": "fixed_bins",
+      "bins": [
+        0,
+        15,
+        25,
+        40
+      ],
+      "labels": [
+        "Cool",
+        "Moderate",
+        "Warm"
+      ]
+    },
+    "yield_per_hectare": {
+      "method": "quartiles",
+      "quartiles": [
+        2.79,
+        6.025,
+        22.085
+      ],
+      "labels": [
+        "Low",
+        "Medium",
+        "High",
+        "VeryHigh"
+      ]
+    },
+    "profit_per_hectare": {
+      "method": "quartiles",
+      "quartiles": [
+        -203.355,
+        626.77,
+        7368.95
+      ],
+      "labels": [
+        "Low",
+        "Medium",
+        "High",
+        "VeryHigh"
+      ]
+    },
+    "water_usage_mm": {
+      "method": "fixed_bins",
+      "bins": [
+        0,
+        200,
+        400,
+        1000
+      ],
+      "labels": [
+        "Low",
+        "Medium",
+        "High"
+      ]
+    },
+    "carbon_footprint_kg_co2": {
+      "method": "fixed_bins",
+      "bins": [
+        0,
+        300,
+        600,
+        1000
+      ],
+      "labels": [
+        "Low",
+        "Medium",
+        "High"
+      ]
+    }
+  },
+  "transaction_columns": [
+    "crop_type",
+    "soil_type",
+    "fertilizer_type",
+    "irrigation_method",
+    "tillage_type",
+    "region",
+    "pest_pressure",
+    "disease_pressure",
+    "pesticide_used",
+    "crop_variety",
+    "pH_soil_ph",
+    "OrganicMatter_organic_matter_percent",
+    "Nitrogen_nitrogen_content",
+    "Phosphorus_phosphorus_content",
+    "Potassium_potassium_content",
+    "Rainfall_annual_rainfall",
+    "Temperature_avg_temperature",
+    "Yield_yield_per_hectare",
+    "Profit_profit_per_hectare",
+    "WaterUsage_water_usage_mm",
+    "CarbonFootprint_carbon_footprint_kg_co2",
+    "planting_season",
+    "growing_period_category",
+    "profit_margin_category",
+    "cost_efficiency_category",
+    "water_efficiency_category",
+    "carbon_efficiency_category",
+    "sustainability_level",
+    "elevation_category",
+    "humidity_category",
+    "solar_radiation_category"
+  ],
+  "config_used": {
+    "min_support_threshold": 0.01,
+    "enable_seasonal_features": true,
+    "enable_economic_features": true,
+    "enable_sustainability_features": true,
+    "enable_geographic_features": true
+  },
+  "feature_engineering_summary": {
+    "seasonal_features": true,
+    "economic_features": true,
+    "sustainability_features": true,
+    "geographic_features": true
+  }
+}

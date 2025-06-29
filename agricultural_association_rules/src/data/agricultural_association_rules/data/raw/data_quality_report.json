@@ -1,0 +1,67 @@
+{
+  "generation_timestamp": "2025-06-29T13:40:42.989067",
+  "dataset_summary": {
+    "total_records": 5000,
+    "total_columns": 35,
+    "memory_usage_mb": 5.81
+  },
+  "data_completeness": {
+    "complete_records": 5000,
+    "completeness_percentage": 100.0
+  },
+  "value_distributions": {
+    "crop_types": {
+      "Wheat": 780,
+      "Soybeans": 751,
+      "Carrots": 655,
+      "Corn": 566,
+      "Beans": 555,
+      "Potatoes": 439,
+      "Lettuce": 404,
+      "Peas": 279,
+      "Rice": 200,
+      "Cotton": 137,
+      "Tomatoes": 126,
+      "Onions": 108
+    },
+    "regions": {
+      "California_Central_Valley": 741,
+      "Midwest": 735,
+      "Southeast": 730,
+      "Northeast": 720,
+      "Southwest": 713,
+      "Great_Plains": 692,
+      "Pacific_Northwest": 669
+    },
+    "soil_types": {
+      "Loam": 862,
+      "Silt": 854,
+      "Sandy": 843,
+      "Clay": 840,
+      "Clayey_Loam": 834,
+      "Sandy_Loam": 767
+    }
+  },
+  "statistical_summary": {
+    "yield_stats": {
+      "mean": 13.36,
+      "std": 14.34,
+      "min": 0.71,
+      "max": 89.19
+    },
+    "profit_stats": {
+      "mean": 5072.06,
+      "std": 9263.38,
+      "min": -4213.79,
+      "max": 85697.74
+    }
+  },
+  "validation_results": {
+    "missing_values": {},
+    "Soil pH range (3-12)": "True",
+    "Positive yields": "True",
+    "Positive costs": "True",
+    "Latitude range (20-60\u00b0N)": "True",
+    "Longitude range (130-60\u00b0W)": "True"
+  }
+}
