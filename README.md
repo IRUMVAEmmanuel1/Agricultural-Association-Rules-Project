@@ -7,7 +7,7 @@
 
 A comprehensive data mining application that discovers farming patterns and provides actionable insights for precision agriculture using Association Rules Mining (Apriori Algorithm).
 
-## 👥 Authors & Contributors
+## 👥 Authors & Contributors for Group 5
 
 - **Jacquiline Umurerwa Karangwa**:  Team Members
 - **Jean D'amour Uwamahoro**: Team Members
