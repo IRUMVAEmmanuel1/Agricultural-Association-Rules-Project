@@ -7,6 +7,15 @@
 
 A comprehensive data mining application that discovers farming patterns and provides actionable insights for precision agriculture using Association Rules Mining (Apriori Algorithm).
 
+## 👥 Authors & Contributors
+
+- **Jacquiline Umurerwa Karangwa**:  [Team Members]
+- **Jean D'amour Uwamahoro**: [Team Members]
+- **Emmanuel Irumva**:  [Team Members]
+- **Lysee Rita Umwari Mwiza**:  [Team Members]
+- **Kevin Ishimwe**:  [Team Members]
+
+
 ## 📖 Overview
 
 This project implements an end-to-end agricultural analytics pipeline that:
@@ -331,12 +340,6 @@ See detailed deployment guides in `docs/deployment.md`
 ## 🔒 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👥 Authors & Contributors
-
-- **Lead Developer**: [Your Name](https://github.com/yourusername)
-- **Data Science Team**: [Team Members]
-- **Agricultural Consultants**: [Domain Experts]
 
 ## 🙏 Acknowledgments
 
