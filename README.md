@@ -9,11 +9,11 @@ A comprehensive data mining application that discovers farming patterns and prov
 
 ## 👥 Authors & Contributors
 
-- **Jacquiline Umurerwa Karangwa**:  [Team Members]
-- **Jean D'amour Uwamahoro**: [Team Members]
-- **Emmanuel Irumva**:  [Team Members]
-- **Lysee Rita Umwari Mwiza**:  [Team Members]
-- **Kevin Ishimwe**:  [Team Members]
+- **Jacquiline Umurerwa Karangwa**:  Team Members
+- **Jean D'amour Uwamahoro**: Team Members
+- **Emmanuel Irumva**:  Team Members
+- **Lysee Rita Umwari Mwiza**:  Team Members
+- **Kevin Ishimwe**:  Team Members
 
 
 ## 📖 Overview
